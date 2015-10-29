@@ -1,5 +1,5 @@
 # freebsd_hardware_info
-I'm currently working on improving the CPU detection support for FreeBSD users in Chef. Chef's hardware detection tool Ohai parses the output of /var/run/dmesg.boot to determine CPU information like vendor, family ID, and stepping.  In order to make sure we have the regex right for parsing that data I'd love to get more examples.
+I'm currently working on improving the CPU detection support for FreeBSD users in Chef. Chef's hardware detection tool Ohai parses the output of /var/run/dmesg.boot to determine CPU information like vendor, family ID, and stepping.  In order to make sure we have the regex right for parsing that data I'd love to get more examples, especially for users on AMD or older Intel hardware.
 
 You can help by opening an issue with the output of the CPU section of your dmesg.boot log.  Here's an example from my laptop:
 
